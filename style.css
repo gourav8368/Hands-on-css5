@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./shara\ desert.jpg);
+    background-size: cover;
+}
+.container-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.navbar{
+    display: flex;
+    cursor: pointer;
+}
+.navbar-menu ul li{
+    list-style: none;
+    display: inline;
+    margin: 0px 40px;
+}
+.navbar-icon{
+    margin-top:15px;
+}
+.right-container{
+    display: grid;
+    grid-template-columns: 200px 200px; 
+    gap: 20px;
+}
+.box{
+    height: 230px;
+    background-image:url(./pic-2.png) ;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.container-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    color: white;
+}
+.left-container{ position: relative;
+padding-left: 40px;
+padding-top: 80px;
+}
+button{
+    width: 130px;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+h4{
+    font-size: medium;
+}
+h1{
+    font-size: 100px;
+    color: white;
+}
+.Lorem{
+    color: white;
+}
+.box:hover{
+    transform: translateY(-10px);
+    background-position: center;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.box{
+    height: 200px;
+    border-radius:20px;
+}
+.box1{
+    background-image: url(./pic-1.png);
+    font-size: x-small;
+    padding-left: 40px;
+    color: white; 
+    background-size: cover;
+    background-position: center;
+}
+.box2{
+    background-image: url(./pic-2.png);
+    font-size: x-small;
+    padding-left: 40px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+.box3{
+    background-image: url(./pic-3.png);
+    font-size: x-small;
+    padding-left: 40px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+.box4{
+    background-image: url(./pic-4.png);
+    font-size: x-small;
+    padding-left: 40px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (min-width:250px) and (max-width:900px){
+    .contener-2{
+        flex-direction:column;
+        padding-left: 0;
+        margin: 0;
+    }
+    .right-container{
+        padding-right: 30px;
+        grid-template-columns: 400px;
+    }
+}
