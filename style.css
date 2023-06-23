@@ -105,10 +105,11 @@ h1{
     background-position: center;
 }
 @media screen and (min-width:250px) and (max-width:900px){
-    .contener-2{
+    .container-2{
         flex-direction:column;
         padding-left: 0;
         margin: 0;
+        flex-direction: column;
     }
     .right-container{
         padding-right: 30px;
